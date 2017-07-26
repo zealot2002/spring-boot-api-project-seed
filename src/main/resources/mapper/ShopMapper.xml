@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzy.robot.dao.ShopMapper">
+  <resultMap id="BaseResultMap" type="com.zzy.robot.model.Shop">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="avatar" jdbcType="VARCHAR" property="avatar" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="favorable_rate" jdbcType="REAL" property="favorableRate" />
+    <result column="description_matches" jdbcType="REAL" property="descriptionMatches" />
+    <result column="attitude" jdbcType="REAL" property="attitude" />
+    <result column="logistics" jdbcType="REAL" property="logistics" />
+    <result column="shopkeeper" jdbcType="VARCHAR" property="shopkeeper" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+</mapper>
